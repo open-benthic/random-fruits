@@ -1,0 +1,12 @@
+// created inside src file for ability to have seperate .babelrc files
+
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false
+      }
+    ]
+  ]
+}
