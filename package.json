@@ -1,7 +1,7 @@
 {
   "name": "random-eat-fruits",
-  "version": "0.0.1",
-  "description": "print random fruits",
+  "version": "0.0.3",
+  "description": "print random fruits string on demand",
   "main": "dist/eat-fruit.cjs.js",
   "browser": "dist/eat-fruit.umd.js",
   "module": "dist/eat-fruit.es.js",
@@ -12,13 +12,30 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "generator",
+    "string-generator",
+    "random-generator",
+    "random-eat-fruits",
+    "eat-fruits",
+    "js-library-from-scratch",
+    "rollup-config",
+    "javascript-library-example"
+  ],
+  "author": {
+    "name": "©BenthicTeam",
+    "url": "https://github.com/open-benthic/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-benthic/random-eat-fruits.git"
+  },
+  "homepage": "https://github.com/open-benthic/",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.9.0",
     "@babel/preset-env": "7.9.0",
-    "rollup": "^2.1.0",
+    "rollup": "2.1.0",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",

@@ -596,7 +596,7 @@ function random(lower, upper, floating) {
 var random_1 = random;
 
 // import random from 'lodash-es/random';
-var FRUITS = ['🍏', '🍉', '🍇'];
+var FRUITS = ['AP🍏PLE', 'WATER🍉MELON', 'GRA🍇PE', 'BANA🍌NA', 'MA🥭NGO', 'PIN🍍EAPPLE', 'STRAWBE🍓RRY'];
 
 var randomFruit = function randomFruit() {
   return FRUITS[random_1(0, FRUITS.length - 1)];
