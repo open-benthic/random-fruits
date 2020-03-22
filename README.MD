@@ -1,10 +1,6 @@
 # Random Fruits Generator🎲
 
-<<<<<<< HEAD
 Random Fruits is a simple javascript library that **generates some random fruits** and it could be used in both browser and nodejs enviroments.
-=======
-Random Fruits is a simple javascript library that **generates some random fruity strings** and it could be used in both browser and nodejs enviroments.
->>>>>>> ce2be4bdb4c920f966d87c43a1561176ae97cb50
 
 ### Installation
 
