@@ -1,4 +1,4 @@
-# Random Fruits Generator🎲
+# Random Fruits Generator 🎲🍍
 
 Random Fruits is a simple javascript library that **generates some random fruits** and it could be used in both browser and nodejs enviroments.
 
