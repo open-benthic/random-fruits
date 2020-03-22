@@ -1,6 +1,6 @@
 # Random Fruity Strings 🎲
 
-this repo contains a simple javascript library that **generates some random fruity strings** and it could be used in both browser and nodejs enviroments.
+Random Fruits is a simple javascript library that **generates some random fruity strings** and it could be used in both browser and nodejs enviroments.
 
 ### Installation
 
