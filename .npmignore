@@ -1,5 +1,9 @@
-#.npmignore
+# .npmignore
 .browserslistrc
 rollup.config.js
-# src 
+src 
 yarn.lock
+.git*
+gulpfile.js
+index.html
+tests.js

@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeFloor = Math.floor,
     nativeRandom = Math.random;
@@ -598,10 +600,17 @@ function random(lower, upper, floating) {
 var random_1 = random;
 
 // import random from 'lodash-es/random';
-const FRUITS = ['AP🍏PLE', 'WATER🍉MELON', 'GRA🍇PE', 'BANA🍌NA', 'MA🥭NGO', 'PIN🍍EAPPLE', 'STRAWBE🍓RRY'];
+const FRUITS = ['AP🍏PLE', 'WATER🍉MELON', 'GRA🍇PE', 'BANA🍌NA', 'MA🥭NGO', 'PIN🍍EAPPLE', 'STRAWBE🍓RRY', 'LEMO🍋N', 'CHER🍒RIES', 'PE🍑ACH', 'ORA🍊NGE', 'KI🥝WI'];
 
-const randomFruit = () => FRUITS[random_1(0, FRUITS.length - 1)];
+const getRandomFor = passedArray => () => passedArray[random_1(0, passedArray.length - 1)];
 
-const eatFruit = () => console.log(`I eat ${randomFruit()}.`);
+const roll = getRandomFor(FRUITS); // const randomFruit = () => getRandomForFruits();
 
-module.exports = eatFruit;
+const rollThree = () => [roll(), roll(), roll()];
+
+const roll$1 = () => console.log(`${roll()}`);
+
+const rollThree$1 = () => console.log(`${rollThree()}`);
+
+exports.roll = roll$1;
+exports.rollThree = rollThree$1;

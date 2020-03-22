@@ -1,6 +1,5 @@
 # Random Fruity Strings 🎲
 
-
 this repo contains a simple javascript library that **generates some random fruity strings** and it could be used in both browser and nodejs enviroments.
 
 ### Installation
@@ -8,51 +7,53 @@ this repo contains a simple javascript library that **generates some random frui
 _install via node_ :
 
 ```bash
-$ npm i random-eat-fruits
+$ npm i random-fruits
 
 # Or if you use Yarn
-$ yarn add random-eat-fruits
+$ yarn add random-fruits
 ```
 
 You can also use this library on the browser directly:
 
 ```html
 <!-- For development -->
-<script src="https://unpkg.com/random-eat-fruits@0.0.1/dist/eat-fruit.umd.js"></script>
+<script src="https://unpkg.com/random-fruits/dist/random-fruits.umd.js"></script>
 
 <!-- Minified version for production -->
-<script src="https://unpkg.com/random-eat-fruits@0.0.1/dist/eat-fruit.umd.min.js"></script>
+<script src="https://unpkg.com/random-fruits/dist/random-fruits.umd.min.js"></script>
 ```
-
-
-
-
 
 ## Quick Start
 
 On Node.js:
 
 ```js
-const eatFruit = require('eat-fruit');
+const randomFruits = require('random-fruits');
 
-eatFruit(); // "🍉"  (or any random fruit)
+randomFruits.roll(); // "🍉"
+
+randomFruits.rollThree(); // "🍇,🍍,🍋"
 ```
 
-If you load the `umd` bundle on the browser, you can access the `eatFruit` function globally :
+If you load the `umd` bundle on the browser, you can access the `randomFruit` function globally :
 
 ```js
-window.eatFruit(); // "🍏"
+window.randomFruit.roll(); // "🍏"
 
 // Or simply
-eatFruit();
+randomFruit.roll();
+
+randomFruit.rollThree();
 ```
 
-you can use `import` either :
+you can use `import` syntax either :
 
 ```js
-import makeRandomStringWithFruits from 'random-eat-fruits';
+import { roll, rollThree } from 'random-fruits';
 
-console.log(makeRandomStringWithFruits()); // 🍍
+roll(); // 🍍
+
+rollThree(); // 🥭,🍓,🍌
 ```
 
 ### Tech stack
@@ -63,7 +64,6 @@ console.log(makeRandomStringWithFruits()); // 🍍
 - [terser-plugin](https://www.npmjs.com/package/rollup-plugin-terser)
 
 ### Notes
-
 
 _supported enviroments_ :
 
@@ -87,7 +87,7 @@ you can easily fork this project , add your changes and create pull request .
 
 ### Roadmap
 
-- typescript typeDefinitions 
+- typescript typeDefinitions
 - tests
 - fruits slot machine
 - dockerfiles
@@ -95,7 +95,6 @@ you can easily fork this project , add your changes and create pull request .
 - styling and UI component for react
 - create a blog post on [DEV.to](https://dev.to/) or [Medium](https://medium.com/)
 - animations
-
 
 ### Helpful Links
 

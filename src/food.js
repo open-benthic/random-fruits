@@ -10,13 +10,25 @@ const FRUITS = [
   'BANA🍌NA',
   'MA🥭NGO',
   'PIN🍍EAPPLE',
-  'STRAWBE🍓RRY'
+  'STRAWBE🍓RRY',
+  'LEMO🍋N',
+  'CHER🍒RIES',
+  'PE🍑ACH',
+  'ORA🍊NGE',
+  'KI🥝WI'
 ];
 
 const FAST_FOODS = ['BU🍔RGER', 'FRI🍟ES', 'PIZ🍕ZA', 'HOT🌭DOG'];
 
-const randomFruit = () => FRUITS[random(0, FRUITS.length - 1)];
+const getRandomFor = passedArray => () =>
+  passedArray[random(0, passedArray.length - 1)];
+
+const roll = getRandomFor(FRUITS);
+
+// const randomFruit = () => getRandomForFruits();
+
+const rollThree = () => [roll(), roll(), roll()];
 
 const randomFastFood = () => FAST_FOODS[random(0, FRUITS.length - 1)];
 
-export { FRUITS, FAST_FOODS, randomFruit, randomFastFood };
+export { roll, rollThree, randomFastFood };

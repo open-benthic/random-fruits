@@ -596,14 +596,26 @@ function random(lower, upper, floating) {
 var random_1 = random;
 
 // import random from 'lodash-es/random';
-var FRUITS = ['AP🍏PLE', 'WATER🍉MELON', 'GRA🍇PE', 'BANA🍌NA', 'MA🥭NGO', 'PIN🍍EAPPLE', 'STRAWBE🍓RRY'];
+var FRUITS = ['AP🍏PLE', 'WATER🍉MELON', 'GRA🍇PE', 'BANA🍌NA', 'MA🥭NGO', 'PIN🍍EAPPLE', 'STRAWBE🍓RRY', 'LEMO🍋N', 'CHER🍒RIES', 'PE🍑ACH', 'ORA🍊NGE', 'KI🥝WI'];
 
-var randomFruit = function randomFruit() {
-  return FRUITS[random_1(0, FRUITS.length - 1)];
+var getRandomFor = function getRandomFor(passedArray) {
+  return function () {
+    return passedArray[random_1(0, passedArray.length - 1)];
+  };
 };
 
-var eatFruit = function eatFruit() {
-  return console.log("I eat ".concat(randomFruit(), "."));
+var roll = getRandomFor(FRUITS); // const randomFruit = () => getRandomForFruits();
+
+var rollThree = function rollThree() {
+  return [roll(), roll(), roll()];
 };
 
-export default eatFruit;
+var roll$1 = function roll$1() {
+  return console.log("".concat(roll()));
+};
+
+var rollThree$1 = function rollThree$1() {
+  return console.log("".concat(rollThree()));
+};
+
+export { roll$1 as roll, rollThree$1 as rollThree };

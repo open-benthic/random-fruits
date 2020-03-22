@@ -1,10 +1,10 @@
 {
-  "name": "random-eat-fruits",
-  "version": "0.0.3",
-  "description": "print random fruits string on demand",
-  "main": "dist/eat-fruit.cjs.js",
-  "browser": "dist/eat-fruit.umd.js",
-  "module": "dist/eat-fruit.es.js",
+  "name": "random-fruits",
+  "version": "0.1.1",
+  "description": "generates random fruity strings",
+  "main": "dist/random-fruits.cjs.js",
+  "browser": "dist/random-fruits.umd.js",
+  "module": "dist/random-fruits.es.js",
   "engines": {
     "node": ">= 8"
   },
@@ -16,6 +16,7 @@
     "generator",
     "string-generator",
     "random-generator",
+    "random-fruits",
     "random-eat-fruits",
     "eat-fruits",
     "js-library-from-scratch",
@@ -28,8 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-benthic/random-eat-fruits.git"
+    "url": "https://github.com/open-benthic/random-fruits.git"
   },
+  "issues": "https://github.com/open-benthic/random-fruits/issues",
   "homepage": "https://github.com/open-benthic/",
   "license": "MIT",
   "devDependencies": {

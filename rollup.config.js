@@ -23,7 +23,6 @@ export default [
             '@babel/env',
             {
               modules: false,
-              useBuiltIns: 'usage',
               targets: 'maintained node versions'
             }
           ]
@@ -36,7 +35,7 @@ export default [
     output: {
       file: pkg.browser,
       format: 'umd',
-      name: 'eatFruit'
+      name: 'randomFruit'
     },
     plugins: [
       resolve(),
@@ -51,7 +50,7 @@ export default [
     output: {
       file: pkg.browser.replace(/\.js$/, '.min.js'),
       format: 'umd',
-      name: 'eatFruit'
+      name: 'randomFruit'
     },
     plugins: [
       resolve(),

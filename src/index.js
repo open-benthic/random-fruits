@@ -1,6 +1,8 @@
 import * as food from './food';
 //tree-shaking with rollup-plugin-node-resolve
 
-const eatFruit = () => console.log(`${food.randomFruit()}.`);
+const roll = () => console.log(`${food.roll()}`);
 
-export default eatFruit;
+const rollThree = () => console.log(`${food.rollThree()}`);
+
+export { roll, rollThree };
