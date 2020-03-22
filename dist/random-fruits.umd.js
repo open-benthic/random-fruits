@@ -617,11 +617,11 @@
   };
 
   var roll$1 = function roll$1() {
-    return console.log("".concat(roll()));
+    return "".concat(roll());
   };
 
   var rollThree$1 = function rollThree$1() {
-    return console.log("".concat(rollThree()));
+    return "".concat(rollThree());
   };
 
   exports.roll = roll$1;

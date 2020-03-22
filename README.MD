@@ -90,9 +90,10 @@ you can easily fork this project , add your changes and create pull request .
 - typescript support
 - tests
 - fruits slot machine
+- roll returns fruits as much as you want
 - dockerfiles
-- optimize project bundle size
-- styling and UI component for react
+- reduce project bundle size
+- UI component for react
 - create a blog post on [DEV.to](https://dev.to/) or [Medium](https://medium.com/)
 - animations
 

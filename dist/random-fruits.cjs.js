@@ -608,9 +608,9 @@ const roll = getRandomFor(FRUITS); // const randomFruit = () => getRandomForFrui
 
 const rollThree = () => [roll(), roll(), roll()];
 
-const roll$1 = () => console.log(`${roll()}`);
+const roll$1 = () => `${roll()}`;
 
-const rollThree$1 = () => console.log(`${rollThree()}`);
+const rollThree$1 = () => `${rollThree()}`;
 
 exports.roll = roll$1;
 exports.rollThree = rollThree$1;

@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "push&publish": "git push && npm publish",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

@@ -611,11 +611,11 @@ var rollThree = function rollThree() {
 };
 
 var roll$1 = function roll$1() {
-  return console.log("".concat(roll()));
+  return "".concat(roll());
 };
 
 var rollThree$1 = function rollThree$1() {
-  return console.log("".concat(rollThree()));
+  return "".concat(rollThree());
 };
 
 export { roll$1 as roll, rollThree$1 as rollThree };
