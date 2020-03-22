@@ -1,6 +1,6 @@
-# Random Fruity Strings 🎲
+# Random Fruits Generator🎲
 
-this repo contains a simple javascript library that **generates some random fruity strings** and it could be used in both browser and nodejs enviroments.
+Random Fruits is a simple javascript library that **generates some random fruits** and it could be used in both browser and nodejs enviroments.
 
 ### Installation
 
@@ -87,7 +87,7 @@ you can easily fork this project , add your changes and create pull request .
 
 ### Roadmap
 
-- typescript typeDefinitions
+- typescript support
 - tests
 - fruits slot machine
 - dockerfiles

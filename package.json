@@ -1,6 +1,6 @@
 {
   "name": "random-fruits",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "generates random fruity strings",
   "main": "dist/random-fruits.cjs.js",
   "browser": "dist/random-fruits.umd.js",
