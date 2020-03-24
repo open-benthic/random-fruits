@@ -96,6 +96,7 @@ you can easily fork this project , add your changes and create pull request .
 - UI component for react
 - create a blog post on [DEV.to](https://dev.to/) or [Medium](https://medium.com/)
 - animations
+- random-emojis
 
 ### Helpful Links
 
